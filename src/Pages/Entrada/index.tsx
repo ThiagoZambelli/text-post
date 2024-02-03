@@ -1,4 +1,3 @@
-import React from 'react'
 import LogoPrincipal from "../../components/LogoPrincipal";
 import styles from './Entrada.module.scss';
 
