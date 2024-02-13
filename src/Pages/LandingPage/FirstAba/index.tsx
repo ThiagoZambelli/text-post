@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./FirstAba.module.scss";
 import { MdTouchApp } from "react-icons/md";
 
