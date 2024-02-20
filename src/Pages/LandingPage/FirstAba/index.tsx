@@ -1,5 +1,4 @@
 import styles from "./FirstAba.module.scss";
-import { MdTouchApp } from "react-icons/md";
 
 function FirstAba() {
   return (
@@ -12,10 +11,9 @@ function FirstAba() {
           Criaremos um oceano de possibilidades, e daremos assas a imaginação...
         </p>
         <div className={styles.cover}>
-          <p className={styles.firstAba__titulo}>
+          <p className={styles.cover__titulo}>
             Bem Vindo ao <span>Mind.txt</span>
-          </p>
-          <MdTouchApp />      
+          </p>              
         </div>
       </div>
     </section>

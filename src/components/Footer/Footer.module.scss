@@ -1,0 +1,49 @@
+@import '../../styles/_variaveis.module';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $color3;
+    padding: 1rem 2rem;
+
+    hr {
+        width: 100%;
+        color: $color1;
+    }
+
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        color: black;
+        font-size: 2rem;
+        gap: 1rem;
+        text-transform: uppercase;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover img {
+            transform: scale(1.04);
+        }
+
+        &:active {
+            transform: scale(.999);
+        }
+
+        img {
+            transition: .5s;
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    &__footer {
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        font-size: 14px;
+        color: $color1;
+    }
+}
